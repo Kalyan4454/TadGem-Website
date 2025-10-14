@@ -1,0 +1,395 @@
+*{
+    margin: 0;
+    font-family: Arial;
+}
+
+
+.navbar{
+    background-color: rgb(94, 1, 94);
+    height: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+}
+
+.logo{
+    background-image: url("logo.png");
+    height: 80px;
+    width: 80px;
+    background-size: cover;
+    border-radius: 20%;
+}
+
+.b2 {
+    
+    align-content: center;
+}
+
+.Search {
+   display: flex;
+   align-items: center;
+   
+}
+input {
+    width: 500px;
+}
+.searching
+{
+    background-color: black;
+}
+
+.drop
+{
+    border: 2px solid black;
+    background-color: azure;
+    color: black;
+}
+
+.box4
+{
+    align-content: center;
+    
+}
+
+.box5
+{
+    align-content: center;
+    
+}
+
+.cart
+{
+    align-content: center;
+}
+
+.navbar2
+{
+    background-color: darkviolet;
+    display: flex;
+    height: 40px;
+    align-items: center;
+}
+
+.all
+{
+    display: flex;
+    margin-left: 70px;
+    margin-right: 50px;
+    color: white;
+}
+
+.lists a{
+    margin-left: 20px;
+    color: white;
+    text-decoration: none;
+}
+.new
+{
+    margin-left: 600px;
+    align-content: flex-end;
+}
+
+.new a{
+    color: white;
+    text-decoration: none;
+}
+
+.m1 {
+    height: 400px;
+    background-image: url("main1.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner1
+{
+    height: 75px;
+    width: 550px;
+    color: aqua;
+    background-color: bisque;
+    align-content: center;
+    font-style: italic;
+    margin-left: 800px;
+    font-size: xx-large;
+    padding-left: 30px;
+}
+
+marquee a {
+    color: white;
+    text-decoration: none;
+}
+main{
+    background-color:aliceblue;
+}
+.products1{
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    height: 300px;
+}
+.product1{
+    padding: 10px;
+    height: 250px;
+    width: 200px; 
+    background-color: darkgray;
+    text-align: center;  
+}
+
+#p1
+{
+    height: 200px;
+    width: 200px;
+    background-image: url("product1.png");
+    background-size: cover;
+}
+.product1 a {
+    color: blue;
+    text-align: left;
+    text-decoration: none;
+    font-size: larger;
+}
+
+.product2{
+    padding: 10px;
+    height: 250px;
+    width: 200px; 
+    background-color: darkgray;
+    text-align: center;  
+}
+
+#p2
+{
+    height: 200px;
+    width: 200px;
+    background-image: url("product2.png");
+    background-size: cover;
+}
+
+.product2 a {
+    color: blue;
+    text-align: left;
+    text-decoration: none;
+    font-size: larger;
+}
+
+.product3{
+    padding: 10px;
+    height: 250px;
+    width: 200px; 
+    background-color: darkgray;
+    text-align: center;  
+}
+
+#p3
+{
+    height: 200px;
+    width: 200px;
+    background-image: url("product3.png");
+    background-size: cover;
+}
+
+.product3 a {
+    color: blue;
+    text-align: left;
+    text-decoration: none;
+    font-size: larger;
+}
+
+.product4{
+    padding: 10px;
+    height: 250px;
+    width: 200px; 
+    background-color: darkgray;
+    text-align: center;  
+}
+
+#p4
+{
+    height: 200px;
+    width: 200px;
+    background-image: url("product4.png");
+    background-size: cover;
+}
+
+.product4 a {
+    color: blue;
+    text-align: left;
+    text-decoration: none;
+    font-size: larger;
+}
+
+.product5{
+    padding: 10px;
+    height: 250px;
+    width: 200px; 
+    background-color: darkgray;
+    text-align: center;  
+}
+
+#p5
+{
+    height: 200px;
+    width: 200px;
+    background-image: url("product5.png");
+    background-size: cover;
+}
+
+.product5 a {
+    color: blue;
+    text-align: left;
+    text-decoration: none;
+    font-size: larger;
+}
+
+.products2{
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    height: 300px;
+}
+.product6{
+    padding: 10px;
+    height: 250px;
+    width: 200px; 
+    background-color: darkgray;
+    text-align: center;  
+}
+
+#p6
+{
+    height: 200px;
+    width: 200px;
+    background-image: url("product6.png");
+    background-size: cover;
+}
+.product6 a {
+    color: blue;
+    text-align: left;
+    text-decoration: none;
+    font-size: larger;
+}
+
+.product7{
+    padding: 10px;
+    height: 250px;
+    width: 200px; 
+    background-color: darkgray;
+    text-align: center;  
+}
+
+#p7
+{
+    height: 200px;
+    width: 200px;
+    background-image: url("product7.png");
+    background-size: cover;
+}
+
+.product7 a {
+    color: blue;
+    text-align: left;
+    text-decoration: none;
+    font-size: larger;
+}
+
+.product8{
+    padding: 10px;
+    height: 250px;
+    width: 200px; 
+    background-color: darkgray;
+    text-align: center;  
+}
+
+#p8
+{
+    height: 200px;
+    width: 200px;
+    background-image: url("product8.png");
+    background-size: cover;
+}
+
+.product8 a {
+    color: blue;
+    text-align: left;
+    text-decoration: none;
+    font-size: larger;
+}
+
+.product9{
+    padding: 10px;
+    height: 250px;
+    width: 200px; 
+    background-color: darkgray;
+    text-align: center;  
+}
+
+#p9
+{
+    height: 200px;
+    width: 200px;
+    background-image: url("product9.png");
+    background-size: cover;
+}
+
+.product9 a {
+    color: blue;
+    text-align: left;
+    text-decoration: none;
+    font-size: larger;
+}
+
+.product10{
+    padding: 10px;
+    height: 250px;
+    width: 200px; 
+    background-color: darkgray;
+    text-align: center;  
+}
+
+#p10
+{
+    height: 200px;
+    width: 200px;
+    background-image: url("product10.png");
+    background-size: cover;
+}
+
+.product10 a {
+    color: blue;
+    text-align: left;
+    text-decoration: none;
+    font-size: larger;
+}
+
+.btot
+{
+    height: 40px;
+    text-align: center;
+    background-color: violet;
+}
+
+.btot a{
+    align-self: center;
+    text-decoration: none;
+    color: black;
+    font-size: xx-large;
+    font-style: italic;
+}
+.footer
+{
+    padding: 20px;
+    height: 150px;
+    background-color: rgb(94, 1, 94);
+}
+
+.footer ul a {
+    list-style-type:circle;
+    text-decoration: none;
+    color: white;
+}
+
+.footer p {
+    color: white;
+}
