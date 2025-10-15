@@ -1,0 +1,273 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: rgb(94, 1, 94);
+    height: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+}
+
+.logo {
+    background-image: url("logo.png");
+    height: 60px;
+    width: 60px;
+    background-size: cover;
+    border-radius: 20%;
+}
+
+.b2 {
+    text-align: center;
+}
+
+.Search {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    max-width: 600px;
+    min-width: 250px;
+}
+
+input {
+    width: 100%;
+    padding: 6px;
+}
+
+.searching {
+    background-color: black;
+    color: white;
+    padding: 8px;
+}
+
+.drop {
+    border: 2px solid black;
+    background-color: azure;
+    color: black;
+    padding: 6px;
+}
+
+.box4, .box5, .cart {
+    text-align: center;
+}
+
+.navbar2 {
+    background-color: darkviolet;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    height: 50px;
+}
+
+.all {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.lists {
+    display: flex;
+    justify-content: center;
+}
+
+.lists a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.new a {
+    color: white;
+    text-decoration: none;
+}
+
+.m1 {
+    height: 400px;
+    background-image: url("main1.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner1 {
+    width: 550px;
+    color: black;
+    background-color: bisque;
+    text-align: center;
+    font-style: italic;
+    font-size: 1.5rem;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+marquee a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    background-color: aliceblue;
+    padding-bottom: 30px;
+}
+
+.products1, .products2 {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.product1, .product2, .product3, .product4, .product5,
+.product6, .product7, .product8, .product9, .product10 {
+    padding: 10px;
+    width: 200px;
+    background-color: darkgray;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 5%;
+}
+
+.product1 a, .product2 a, .product3 a, .product4 a, .product5 a,
+.product6 a, .product7 a, .product8 a, .product9 a, .product10 a {
+    color: blue;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+#p1 {
+    height: 180px;
+    width: 100%;
+    background-image: url("product1.png");
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 10px;
+}
+
+#p2 {
+    height: 180px;
+    width: 100%;
+    background-image: url("product2.png");
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 10px;
+}
+
+#p3 {
+    height: 180px;
+    width: 100%;
+    background-image: url("product3.png");
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 10px;
+}
+
+#p4 {
+    height: 180px;
+    width: 100%;
+    background-image: url("product4.png");
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 10px;
+}
+
+#p5 {
+    height: 180px;
+    width: 100%;
+    background-image: url("product5.png");
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 10px;
+}
+
+#p6 {
+    height: 180px;
+    width: 100%;
+    background-image: url("product6.png");
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 10px;
+}
+
+#p7 {
+    height: 180px;
+    width: 100%;
+    background-image: url("product7.png");
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 10px;
+}
+
+#p8 {
+    height: 180px;
+    width: 100%;
+    background-image: url("product8.png");
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 10px;
+}
+
+#p9 {
+    height: 180px;
+    width: 100%;
+    background-image: url("product9.png");
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 10px;
+}
+
+#p10 {
+    height: 180px;
+    width: 100%;
+    background-image: url("product10.png");
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 10px;
+}
+
+.btot {
+    height: 40px;
+    text-align: center;
+    background-color: violet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btot a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+    font-style: italic;
+}
+
+.footer {
+    padding: 20px;
+    background-color: rgb(94, 1, 94);
+    text-align: center;
+}
+
+.footer ul {
+    list-style: none;
+}
+
+.footer li {
+    margin: 5px 0;
+}
+
+.footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer p {
+    color: white;
+    margin-top: 15px;
+}
